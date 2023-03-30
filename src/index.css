@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.card {
+  max-width: 24rem;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+
+}
+
+.review {
+  @apply text-gray-700 text-base px-6 py-4;
+}
+
+.name {
+  @apply text-xl;
+}
+
+.designation {
+  @apply text-gray-500 font-light;
+}
+
+.bi {
+  @apply text-9xl absolute text-gray-200 -z-10 font-mono;
+}
+
+.userimage {
+  @apply w-20 rounded-full mt-6 ml-32 mb-5 mr-2;
+}
+
+.pricecard {
+  @apply max-w-sm rounded-3xl overflow-hidden text-start mt-10 py-8 px-5;
+}
+
+.price {
+  @apply text-white text-5xl font-bold;
+}
+
+.desc1 {
+  @apply text-white text-xl font-medium mt-3;
+}
+
+.desc2 {
+  @apply text-white mt-2;
+}
+
+.benefit {
+  @apply text-white mt-3;
+}
+
+.question {
+  @apply font-medium mt-4 text-xl;
+}
+
+.answer {
+  @apply mt-3 text-gray-600;
+}
+
+.icon {
+  @apply text-white text-2xl mr-4;
+}
