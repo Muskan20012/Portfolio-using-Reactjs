@@ -16,8 +16,9 @@ function App() {
  
   return (
    <>
-   {/* <Fetch/> */}
+  
  <Header/> 
+ {/* <Main/> */}
    <Routes>
       <Route path='/' element={<Main/>}/>
       <Route path='/fetch-data' element={<Fetch/>}/>

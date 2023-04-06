@@ -39,9 +39,9 @@ function Main()   {
             6 months free</button>
     </div>
     
-<Pricing/>  
+{/* <Pricing/>  
 <Testimonials/>
-   <Faq/>
+   <Faq/> */}
     
   
     </>
