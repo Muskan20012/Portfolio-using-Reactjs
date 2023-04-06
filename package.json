@@ -2,7 +2,7 @@
   "name": "revision",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Muskan20012.github.io/Company-Portfolio",
+  "homepage": "https://Muskan20012.github.io/Company-portfolio",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.6",
@@ -21,8 +21,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
