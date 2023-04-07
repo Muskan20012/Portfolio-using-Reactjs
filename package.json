@@ -2,7 +2,7 @@
   "name": "revision",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Muskan20012.github.io/Company-portfolio",
+  "homepage": "https://Muskan20012.github.io/Portfolio-using-Reactjs",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@emotion/react": "^11.10.6",
