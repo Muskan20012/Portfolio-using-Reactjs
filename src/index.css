@@ -77,3 +77,17 @@ code {
 .icon {
   @apply text-white text-2xl mr-4;
 }
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  
+}
+
+.fade-in{
+  animation: fade 2s
+}

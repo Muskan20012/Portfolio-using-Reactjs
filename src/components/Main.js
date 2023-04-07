@@ -7,7 +7,7 @@ function Main()   {
     <>
 <Header/>
     <div class="text-center py-40">
-        <p class="text-7xl font-semibold">Accounting <span class="text-blue-600">made simple</span><br/> for small
+        <p class="text-7xl font-semibold">Accounting <span class="text-blue-600 fade-in">made simple</span><br/> for small
             businesses.</p>
         <p class="mt-5 text-xl text-gray-600">Most bookkeeping software is accurate, but hard to use. We make the <br/>
             opposite trade-off, and hope you don’t get audited.</p>
@@ -20,7 +20,7 @@ function Main()   {
     </div>
     <div class="text-center mb-10">
         <p class="font-serif text-lg mb-5">Trusted by these companies so far</p>
-        <ul class=" lg:flex justify-center space-x-16 text-xl font-medium">
+        <ul class=" lg:flex justify-center gap-12 text-xl font-medium">
             <li>Transistor</li>
             <li>Tuple</li>
             <li>StaticKit</li>

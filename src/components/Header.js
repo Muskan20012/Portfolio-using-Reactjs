@@ -19,7 +19,7 @@ const Header = () => {
         <div>
             
             <button
-                className="cursor-pointer text-white bg-blue-600  hover:bg-blue-400 font-medium  px-4 py-1 rounded-2xl shadow-lg ">Get
+                className="cursor-pointer text-white bg-blue-600  hover:bg-blue-400 font-medium  px-4 py-1 rounded-2xl shadow-lg animate-bounce">Get
                 Started Today</button>
         </div>
     </div>
