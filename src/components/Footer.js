@@ -6,7 +6,7 @@ const Footer = () => {
     <div>
        <div class="text-center py-10">
 
-            <Link to={'*'} className='font-bold text-2xl'>Tax<span className='font-bold text-blue-600'>pal</span></Link>
+            <p className='font-bold text-2xl'>Tax<span className='font-bold text-blue-600'>pal</span></p>
         
         <div class="py-7 space-x-16">
             <a href="/faq" class="cursor-pointer text-gray-500 hover:text-black  ">FAQ's</a>

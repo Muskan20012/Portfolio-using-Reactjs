@@ -1,7 +1,7 @@
 import './index.css';
 import Contact from './components/Contact';
 import Fetch from './components/Fetch';
-import { Route,Routes
+import { Route, Routes
  } from 'react-router-dom';
 import Main from './components/Main';
 import Testimonials from './components/Testimonials';
@@ -15,12 +15,15 @@ function App() {
    <>
   
    <Routes>
-      <Route path='*' element={<Main/>}/>
+  
+
+      <Route path='*' element={<Main/>}></Route>
       <Route path='/fetch-data' element={<Fetch/>}/>
       <Route path='/contact-form' element={<Contact/>}/>
       <Route path='/testimonials' element={<Testimonials/>}/>
       <Route path='/pricing' element={<Pricing/>}/>
       <Route path='/faq' element={<Faq/>}/>
+   
     </Routes>    
    </>
   );

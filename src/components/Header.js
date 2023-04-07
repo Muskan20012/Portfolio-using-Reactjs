@@ -4,15 +4,17 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-  <div className="header flex justify-evenly py-9 ">
-        <div className="space-x-10">
-          
-            <Link to={'*'} className='font-bold text-2xl'>Tax<span className='font-bold text-blue-600'>pal</span></Link>
-            <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/testimonials'}>Testimonials</Link>
+         <div className="flex justify-evenly py-9 ">
+         <div className="flex gap-10">
+            {/* <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/'}>Home</Link> */}
+            <p className='font-bold text-2xl '>Tax<span className='font-bold text-blue-600'>pal</span></p>
+            <div className='mt-2 flex gap-10'>
+
+            <Link className="cursor-pointer text-gray-500 hover:text-black" to={'/testimonials'}>Testimonials</Link>
             <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/pricing'}>Pricing</Link>
             <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/faq'}>FAQ's</Link>
-            
             <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/contact-form'}>Contact Us</Link>
+            </div>
         </div>
 
         <div>
