@@ -1,12 +1,11 @@
 import React from "react";
-import Faq from "./Faq";
-import Pricing from "./Pricing";
-import Testimonials from "./Testimonials";
+import Header from "./Header";
+import Footer from "./Footer";
 
 function Main()   {
   return (
     <>
-
+<Header/>
     <div class="text-center py-40">
         <p class="text-7xl font-semibold">Accounting <span class="text-blue-600">made simple</span><br/> for small
             businesses.</p>
@@ -38,12 +37,9 @@ function Main()   {
             class="cursor-pointer text-black bg-white hover:bg-gray-200 font-medium  px-4 py-1 rounded-2xl mt-9 w-44">Get
             6 months free</button>
     </div>
+ 
     
-{/* <Pricing/>  
-<Testimonials/>
-   <Faq/> */}
-    
-  
+  <Footer/>
     </>
   )
 }

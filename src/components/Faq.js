@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
 const Faq = () => {
   return (
     <div>
+    <Header/>
        <div class="px-24 py-20 text-start  " 
         id="faq">
         <p class="text-4xl mb-7 font-semibold">Frequently asked questions</p>
@@ -54,7 +57,7 @@ const Faq = () => {
         </div>
 
     </div>
-
+<Footer/>
     </div>
   )
 }

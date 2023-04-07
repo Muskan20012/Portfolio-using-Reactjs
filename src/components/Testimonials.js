@@ -1,8 +1,11 @@
 import React from 'react'
+import Footer from './Footer'
+import Header from './Header'
 
 const Testimonials = () => {
   return (
     <div>
+    <Header/>
       <div class="text-center py-20" id="testimonials">
         <p class="font-medium text-5xl">Loved by businesses worldwide.</p>
         <p class="text-xl mt-10 text-gray-600">Our software is so simple that people can’t help but fall in love with
@@ -99,6 +102,7 @@ const Testimonials = () => {
 
         </div>
     </div>
+    <Footer/>
     </div>
   )
 }

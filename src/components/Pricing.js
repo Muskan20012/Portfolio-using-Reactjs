@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 
 const Pricing = () => {
   return (
-    <div>
+      <div>
+    <Header/>
       <div class="bg-gray-800 text-center py-20 " id="pricing">
         <p class="text-white text-4xl font-medium">
             Simple pricing, for everyone.
@@ -98,7 +101,7 @@ const Pricing = () => {
             </div>
         </div>
     </div>
-    
+    <Footer/>
     </div>
   )
 }

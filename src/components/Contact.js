@@ -3,6 +3,8 @@ import { setDoc,doc} from 'firebase/firestore'
 import { TextField,Button } from '@mui/material'
 import React, { useState } from 'react';
 import 'firebase/firestore';
+import Footer from './Footer';
+import Header from './Header';
 
 const Contact = () => {
   const [values, setValues] = useState({
@@ -80,7 +82,7 @@ const Contact = () => {
 
   return (
     <center>
-
+    <Header/>
     <form className='w-96'>
     <center>
 
@@ -132,6 +134,8 @@ const Contact = () => {
 
     </center>
 </form>
-    </center>);
+<Footer/>
+    </center>
+    );
 };
 export default Contact;
