@@ -6,8 +6,8 @@ const Header = () => {
     <header>
   <div className="header flex justify-evenly py-9 ">
         <div className="space-x-10">
-            <a href="/" className="logo cursor-pointer font-bold text-xl">Tax<span
-                    className="text-blue-600 text-xl font-bold">Pal</span></a>
+            <p className="logo cursor-pointer font-bold text-xl">Tax<span
+                    className="text-blue-600 text-xl font-bold">Pal</span></p>
             
             <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/testimonials'}>Testimonials</Link>
             <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/pricing'}>Pricing</Link>

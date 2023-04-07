@@ -7,7 +7,7 @@ import Main from './components/Main';
 import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
 import Faq from './components/Faq';
-import Header from './components/Header';
+
 
 function App() {
  
