@@ -7,7 +7,7 @@ const Header = () => {
   <div className="header flex justify-evenly py-9 ">
         <div className="space-x-10">
           
-            <Link to={'/main'} className='font-bold text-2xl'>Tax<span className='font-bold text-blue-600'>pal</span></Link>
+            <Link to={'*'} className='font-bold text-2xl'>Tax<span className='font-bold text-blue-600'>pal</span></Link>
             <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/testimonials'}>Testimonials</Link>
             <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/pricing'}>Pricing</Link>
             <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/faq'}>FAQ's</Link>
