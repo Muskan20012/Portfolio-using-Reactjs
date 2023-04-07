@@ -1,13 +1,13 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div>
        <div class="text-center py-10">
 
-        <a href="*" class="logo cursor-pointer font-bold text-xl ">Tax<span
-                class="text-blue-600 text-xl font-bold">Pal</span></a>
+            <Link to={'/main'} className='font-bold text-2xl'>Tax<span className='font-bold text-blue-600'>pal</span></Link>
+        
         <div class="py-7 space-x-16">
             <a href="/faq" class="cursor-pointer text-gray-500 hover:text-black  ">FAQ's</a>
             <a href="/testimonials" class="cursor-pointer text-gray-500 hover:text-black">Testimonials</a>

@@ -15,7 +15,7 @@ function App() {
    <>
   
    <Routes>
-      <Route path='*' element={<Main/>}/>
+      <Route path='/main' element={<Main/>}/>
       <Route path='/fetch-data' element={<Fetch/>}/>
       <Route path='/contact-form' element={<Contact/>}/>
       <Route path='/testimonials' element={<Testimonials/>}/>
