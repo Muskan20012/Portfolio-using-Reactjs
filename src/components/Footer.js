@@ -9,9 +9,12 @@ const Footer = () => {
             <p className='font-bold text-2xl'>Tax<span className='font-bold text-blue-600'>pal</span></p>
         
         <div class="py-7 space-x-16">
-            <a href="/faq" class="cursor-pointer text-gray-500 hover:text-black  ">FAQ's</a>
+            {/* <a href="/faq" class="cursor-pointer text-gray-500 hover:text-black  ">FAQ's</a>
             <a href="/testimonials" class="cursor-pointer text-gray-500 hover:text-black">Testimonials</a>
-            <a href="/pricing" class="cursor-pointer text-gray-500 hover:text-black ">Pricing</a>
+            <a href="/pricing" class="cursor-pointer text-gray-500 hover:text-black ">Pricing</a> */}
+            <Link className="cursor-pointer text-gray-500 hover:text-black" to={'/testimonials'}>Testimonials</Link>
+            <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/pricing'}>Pricing</Link>
+            <Link className="cursor-pointer text-gray-500 hover:text-black " to={'/faq'}>FAQ's</Link>
         </div>
 
         <hr class="mx-32 mb-10"/>
