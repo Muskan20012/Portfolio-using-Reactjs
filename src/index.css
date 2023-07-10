@@ -91,3 +91,25 @@ code {
 .fade-in{
   animation: fade 2s
 }
+.drawer-navbar {
+  position: fixed;
+  top: 0;
+  right: -300px; /* Adjust this value based on the desired drawer width */
+  width: 300px; /* Adjust this value based on the desired drawer width */
+  height: 100vh;
+  background-color: #f1f1f1;
+  transition: right 0.3s ease;
+}
+
+.drawer-navbar.open {
+  right: 0;
+}
+
+.drawer-navbar-inner {
+  padding: 20px;
+}
+
+.drawer-navlinks li {
+  margin-bottom: 10px;
+}
+

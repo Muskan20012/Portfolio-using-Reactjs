@@ -1,19 +1,20 @@
 import React from 'react'
-import Header from './Header'
+import Header from './Navbar/Header'
 import Footer from './Footer'
+import NavSelect from './Navbar/NavSelect'
 
 const Faq = () => {
   return (
     <div>
-    <Header/>
-       <div class="px-24 py-20 text-start  " 
+    <NavSelect/>
+       <div class="px-5 lg:px-24 py-20 text-start  " 
         id="faq">
         <p class="text-4xl mb-7 font-semibold">Frequently asked questions</p>
         <p class="text-xl">If you can’t find what you’re looking for, email our support team and if you’re <br/>
             lucky someone will get back to you.
         </p>
 
-        <div class="flex flex-row  mb-11 mt-10 gap-8">
+        <div class="flex flex-col lg:flex-row  mb-11 mt-10 gap-8">
             <div class="flex-1 flex-col ">
                 <p class="question">Does TaxPal handle VAT?</p>
                 <p class="answer">Well no, but if you move your company offshore you can probably ignore it.</p>

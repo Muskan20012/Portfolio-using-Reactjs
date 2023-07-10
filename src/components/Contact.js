@@ -4,7 +4,8 @@ import { TextField,Button } from '@mui/material'
 import React, { useState } from 'react';
 import 'firebase/firestore';
 import Footer from './Footer';
-import Header from './Header';
+import Header from './Navbar/Header';
+import NavSelect from './Navbar/NavSelect';
 
 const Contact = () => {
   const [values, setValues] = useState({
@@ -82,8 +83,8 @@ const Contact = () => {
 
   return (
     <center>
-    <Header/>
-    <form className='w-96'>
+   <NavSelect/>
+    <form className='w-72 mt-5 lg:w-96'>
     <center>
 
       <TextField
@@ -128,7 +129,7 @@ const Contact = () => {
         multiline
         rows={4}
       />
-      <Button onClick={handleSubmit} type="submit" variant="contained">
+      <Button className='' onClick={handleSubmit} type="submit" variant="contained">
         Submit
       </Button>
 

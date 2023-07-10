@@ -20,7 +20,7 @@ const Footer = () => {
         <hr class="mx-32 mb-10"/>
 
         <div class=" flex justify-evenly gap-x-11">
-            <p class="ml-10">Copyright © 2022 TaxPal. All rights reserved.</p>
+            <p>Copyright © 2022 TaxPal. All rights reserved.</p>
         </div>
     </div>
 

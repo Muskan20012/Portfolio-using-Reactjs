@@ -1,11 +1,12 @@
 import React from 'react'
-import Header from './Header'
+import Header from './Navbar/Header'
 import Footer from './Footer'
+import NavSelect from './Navbar/NavSelect'
 
 const Pricing = () => {
   return (
       <div>
-    <Header/>
+<NavSelect/>
       <div class="bg-gray-800 text-center py-20 " id="pricing">
         <p class="text-white text-4xl font-medium">
             Simple pricing, for everyone.
@@ -15,7 +16,7 @@ const Pricing = () => {
             well for you.
         </p>
 
-        <div class=" lg:flex flex-row ml-48 mt-10 gap-10 ">
+        <div class="ml-2 lg:flex flex-row lg:ml-48 mt-10 gap-10 ">
             <div class="pricecard bg-transparent">
 
                 <p class="price">$9</p>
@@ -42,7 +43,7 @@ const Pricing = () => {
 
             </div>
 
-            <div class="pricecard bg-blue-600  scale-110">
+            <div class="pricecard bg-blue-600 scale-90 lg:scale-110">
 
                 <p class="price">$15</p>
                 <p class="desc1">Small business</p>

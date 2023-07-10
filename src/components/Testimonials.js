@@ -1,18 +1,19 @@
 import React from 'react'
 import Footer from './Footer'
-import Header from './Header'
+import Header from './Navbar/Header'
+import NavSelect from './Navbar/NavSelect'
 
 const Testimonials = () => {
   return (
     <div>
-    <Header/>
+   <NavSelect/>
       <div class="text-center py-20" id="testimonials">
         <p class="font-medium text-5xl">Loved by businesses worldwide.</p>
         <p class="text-xl mt-10 text-gray-600">Our software is so simple that people can’t help but fall in love with
             it. Simplicity <br/> is easy when you just skip tons of mission-critical features.
         </p>
 
-        <div class="flex flex-wrap justify-around mb-10 mt-10">
+        <div class="flex flex-wrap justify-around mb-10 mt-10 gap-8 p-2">
 
             <div class="card">
 
