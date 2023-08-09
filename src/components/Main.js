@@ -33,8 +33,8 @@ function Main()   {
 {/* Render the DrawerNavbar component */}
 <DrawerNavbar isOpen={isDrawerOpen} onClose={handleDrawerToggle} />
 
-    <div class=" text-center py-16 md:py-40">
-        <p class="text-3xl md:text-7xl font-semibold">Accounting <span class="text-blue-600 fade-in">made simple</span><br/> for small
+    <div className=" text-center py-16 md:py-40">
+        <p className="text-3xl md:text-7xl font-semibold">Accounting <span class="text-blue-600 fade-in">made simple</span><br/> for small
             businesses.</p>
         <p class="p-4 text-lg text-gray-600 md:text-xl">Most bookkeeping software is accurate, but hard to use. We make the <br/>
             opposite trade-off, and hope you don’t get audited.</p>
